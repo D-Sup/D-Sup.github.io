@@ -117,7 +117,7 @@ blockquote {
     font-style: italic;
 
     &:before {
-      content: "\2014";
+      content: '\2014';
       padding-right: 5px;
     }
   }
@@ -126,6 +126,7 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
@@ -330,7 +331,7 @@ a,
 tr,
 td,
 form button,
-input[type="submit"],
+input[type='submit'],
 .btn,
 .highlight,
 .archive__item-teaser {
