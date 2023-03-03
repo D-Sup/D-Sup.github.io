@@ -5,8 +5,8 @@
 @charset "utf-8";
 
 @import 'custom/customImport.scss';
-
-@import 'minimal-mistakes/skins/dirt'; // skin
+// # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+@import 'minimal-mistakes/skins/default'; // skin
 @import 'minimal-mistakes'; // main partials
 
 @import 'custom/customOverride.scss';
