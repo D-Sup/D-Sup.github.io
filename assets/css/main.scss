@@ -4,12 +4,12 @@
 
 @charset "utf-8";
 
-@import 'custom/customImport.scss';
+@import '/_sass/custom/customImport.scss';
 
 @import 'minimal-mistakes/skins/dirt'; // skin
 @import 'minimal-mistakes'; // main partials
 
-@import 'custom/customOverride.scss';
+@import '/_sass/custom/customOverride.scss';
 
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400'); // Nanum Gothic
 
