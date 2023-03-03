@@ -3,7 +3,15 @@ layout: archive
 ---
 
 {{ content }}
-
+<script
+  src="https://utteranc.es/client.js"
+  repo="D-Sup/D-Sup.github.io"
+  issue-term="pathname"
+  label="comments"
+  theme="gruvbox-dark"
+  crossorigin="anonymous"
+  async
+></script>
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date |
   date: "%Y"' %} {% for year in postsInYear %}
@@ -26,13 +34,4 @@ layout: archive
     >{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a
   >
 </section>
-<script
-  src="https://utteranc.es/client.js"
-  repo="D-Sup/D-Sup.github.io"
-  issue-term="pathname"
-  label="comments"
-  theme="gruvbox-dark"
-  crossorigin="anonymous"
-  async
-></script>
 {% endfor %}
