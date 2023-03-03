@@ -21,7 +21,7 @@ after_footer_scripts:
 locale: 'ko-KR'
 title: "Sup's Blog"
 title_separator: '|'
-subtitle: # site tagline that appears below site title in masthead
+subtitle: '공부의 흔적' # site tagline that appears below site title in masthead
 name: '안동섭'
 description: 'An amazing website.'
 url: 'https://D-Sup.github.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -29,7 +29,7 @@ baseurl: '' # the subpath of your site, e.g. "/blog"
 repository: D-Sup/D-Sup.github.io' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: '감수성이 풍부한 개발자' # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: "dev's gait" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
@@ -107,7 +107,7 @@ analytics:
 author:
   name: 'DongSup Ahn'
   avatar: '/assets/image/profil.jfif' # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: '티스토리에서 이사왔습니다'
+  bio: '블로그 이사했어요🖐'
   location: 'Seoul, Korea'
   email:
   links:
@@ -201,7 +201,6 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-remote-theme
   - jekyll-paginate
   # - jekyll-sitemap
   - jekyll-gist
@@ -262,8 +261,11 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
+      show_date: true
+      date_format: '%Y-%M-%d'
+
   # _pages
   - scope:
       path: '_pages'
@@ -271,10 +273,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: false
-      related: true
-      show_date: true
-
-date_format: '%Y-%M-%d'
