@@ -31,8 +31,7 @@ masthead_title: '감수성이 풍부한 개발자' # overrides the website title
 words_per_minute: 200
 comments:
   provider: 'disqus' # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
-  disqus:
-    shortname: 'D-Sup.github.io' # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  #disqus:shortname: 'D-Sup.github.io' # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
