@@ -12,12 +12,12 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: 'default' # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: 'mint' # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: 'ko-KR'
 title: "Sup's Blog"
-title_separator: '-'
+title_separator: '|'
 subtitle: # site tagline that appears below site title in masthead
 name: '안동섭'
 description: 'An amazing website.'
@@ -27,7 +27,7 @@ repository: D-Sup/D-Sup.github.io' # GitHub username/repo-name e.g. "mmistakes/m
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: '감수성이 풍부한 개발자' # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
   provider: 'utterances' # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -77,6 +77,10 @@ bing_site_verification:
 naver_site_verification:
 yandex_site_verification:
 baidu_site_verification:
+
+dark_theme_toggle: true # 다크 모드 토글 기능 추가
+after_footer_scripts:
+  - /assets/js/custom/dark-theme.js
 
 # Social Sharing
 twitter:
@@ -268,3 +272,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+      read_time: true
+      comments: true
+      share: false
+      related: true
+      show_date: true
+
+date_format: '%Y-%M-%d'

@@ -1,0 +1,56 @@
+/* Dark / Light Mode Togle Switch */
+
+.mh_toogle {
+  display: none;
+
+  + .mh_toggle_btn {
+    box-sizing: border-box;
+    outline: 0;
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 1.5em;
+    margin-top: 0.6%;
+    margin-left: 0; // 1%
+    font-size: 1em;
+    transition: 0.4s ease;
+
+    &:hover {
+      box-shadow: 0.1em 0.1em 0.2em #343434;
+    }
+
+    &:after {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      transition: color 0.4s ease;
+    }
+
+    &:after {
+      font-family: 'Font Awesome 5 Free';
+      content: '🌞';
+      font-weight: 500;
+      color: #343434;
+    }
+  }
+
+  &:checked + .mh_toggle_btn {
+    &:hover {
+      box-shadow: 0.1em 0.1em 0.2em #eaeaea;
+    }
+
+    &:after {
+      font-family: 'Font Awesome 5 Free';
+      content: '🌙';
+      font-weight: 900;
+      color: #eaeaea;
+    }
+  }
+}
