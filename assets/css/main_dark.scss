@@ -1,14 +1,14 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+// ---
+// # Only the main Sass file needs front matter (the dashes are enough)
+// ---
 
-@charset "utf-8";
+// @charset "utf-8";
 
-@import 'custom/customImport.scss';
+// @import 'custom/customImport.scss';
 
-@import 'minimal-mistakes/skins/dark';
-@import 'minimal-mistakes'; // main partials
+// @import 'minimal-mistakes/skins/dark';
+// @import 'minimal-mistakes'; // main partials
 
-@import 'custom/customOverride.scss';
+// @import 'custom/customOverride.scss';
 
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400'); // Nanum Gothic
+// @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400'); // Nanum Gothic
