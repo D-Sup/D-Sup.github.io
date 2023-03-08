@@ -25,6 +25,8 @@ permalink: /about/
 
 <span style="font-size:25px;">💬코멘트💬</span> 는 저에게 많은 도움이 되니 편하게 달아주시면 감사할게요 😊
 
+---
+
 <script
 src="https://utteranc.es/client.js"
 repo="D-Sup/D-Sup.github.io"
@@ -34,6 +36,8 @@ theme="gruvbox-dark"
 crossorigin="anonymous"
 async
 ></script>
+
+---
 
 <!-- ---
 permalink: /about/
