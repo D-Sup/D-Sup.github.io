@@ -9,7 +9,7 @@ permalink: /about/
 
 <img
   src="../assets/image/hello.jpg"
-  style="width:400px; height:400px;  border-radius: 10px;"
+  class="img"
 />
 
 <br/>
