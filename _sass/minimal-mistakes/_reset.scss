@@ -135,6 +135,24 @@ img {
 
 /* Consistent form font size in all browsers, margin changes, misc */
 
+strong,
+.inStrong {
+  color: #f21368;
+  font-weight: 500;
+}
+
+.explain {
+  color: #539165;
+}
+
+.subHeading {
+  font-size: 1.15em;
+}
+
+.smallText {
+  font-size: 0.8em;
+}
+
 button,
 input,
 select,

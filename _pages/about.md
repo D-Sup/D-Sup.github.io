@@ -7,10 +7,6 @@ permalink: /about/
 
 <br/>
 
-<span style="font-size:25px;">🔆HELLO🔆</span>
-
-<br/>
-
 <img
   src="../assets/image/hello.jpg"
   style="width:400px; height:400px;  border-radius: 10px;"
@@ -18,9 +14,11 @@ permalink: /about/
 
 <br/>
 
-어제보다 성장하기 위한 <span style="font-size:25px;">흔적을 남기는 중입니다 </span>👣
+<span style="font-size:1.5em;">안녕하세요🔆</span>
 
-<span style="font-size:25px;">💬코멘트💬</span> 는 저에게 많은 도움이 되니 편하게 달아주시면 감사할게요 😊
+어제보다 성장하기 위한 <span style="font-size:1.5em;">흔적을 남기는 중입니다 🐾 </span>
+
+<span style="font-size:1.5em;">💬코멘트💬</span> 는 저에게 많은 도움이 되니 편하게 달아주시면 감사할게요 <span style="font-size:1.5em;">😊</span>
 
 <br/>
 

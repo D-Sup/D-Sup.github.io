@@ -1,3 +1,13 @@
+bundle exec jekyll serve
+https://gist.github.com/ihoneymon/652be052a0727ad59601
+Notice Type Class
+Default .notice
+Primary .notice--primary
+Info .notice--info
+Warning .notice--warning
+Success .notice--success
+Danger .notice--danger
+
 [ ]박스 정렬문제 코드 살펴보기
 
 - flex말고 유지보수, 반응형고려

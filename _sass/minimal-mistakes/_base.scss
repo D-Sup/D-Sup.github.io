@@ -36,6 +36,7 @@ h6 {
 h1 {
   margin-top: 0;
   font-size: $h-size-1;
+  color: #00adb5;
 }
 
 h2 {
@@ -110,11 +111,11 @@ blockquote {
   margin: 2em 1em 2em 0;
   padding-left: 1em;
   padding-right: 1em;
-  font-style: italic;
-  border-left: 0.25em solid $primary-color;
-
+  // font-style: italic;
+  border-left: 0.25em solid #f21368;
+  // $primary-color
   cite {
-    font-style: italic;
+    // font-style: italic;
 
     &:before {
       content: '\2014';
