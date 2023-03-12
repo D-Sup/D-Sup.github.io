@@ -10,6 +10,37 @@ toc_sticky: true
 toc_label: 'CONTENTS'
 ---
 
+---
+
+<br />
+
+# 📚 What is TIL?
+
+<!-- content -->
+<!-- content -->
+
+<br>
+
+---
+
+<br>
+
+# 🔗 TIP
+
+<!-- content -->
+<!-- content -->
+
+<br>
+
+---
+
+<br>
+
+# ✨ Today is ...
+
+<!-- content -->
+<!-- content -->
+
 <!--
 strong,
 . {
@@ -49,25 +80,3 @@ strong,
 ⚠️
 {:.notice--warning}
 -->
-
----
-
-<br />
-
-# 📚 What is TIL?
-
-<br>
-
----
-
-<br>
-
-# 🔗 TIP
-
-<br>
-
----
-
-<br>
-
-# ✨ Today is ...
