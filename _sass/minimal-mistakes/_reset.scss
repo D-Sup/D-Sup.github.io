@@ -149,6 +149,19 @@ strong,
   font-size: 1.15em;
 }
 
+.img {
+  width: auto;
+  max-height: 500px;
+  object-fit: scale-down;
+  transition: box-shadow 0.3s;
+  border-radius: 7px;
+  background-size: contain;
+}
+
+.img:hover {
+  box-shadow: 0 14px 28px rgba($text-color, 0.25), 0 10px 10px rgba($text-color, 0.22);
+}
+
 .smallText {
   font-size: 0.8em;
 }

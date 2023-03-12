@@ -71,5 +71,3 @@ strong,
 <br>
 
 # ✨ Today is ...
-
-<br>
