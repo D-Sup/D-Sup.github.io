@@ -135,10 +135,9 @@ img {
 
 /* Consistent form font size in all browsers, margin changes, misc */
 
-strong,
-.inStrong {
+strong {
   color: #f21368;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .explain {
@@ -159,11 +158,52 @@ strong,
 }
 
 .img:hover {
-  box-shadow: 0 14px 28px rgba($text-color, 0.25), 0 10px 10px rgba($text-color, 0.22);
+  box-shadow: inset 2px 2px 2px 0px rgba($text-color, 0.8), 7px 7px 20px 0px rgba($text-color, 0.4),
+    4px 4px 5px 0px rgba($text-color, 0.4);
+  // box-shadow: 0 14px 28px rgba($text-color, 0.25), 0 10px 10px rgba($text-color, 0.22);
 }
 
 .smallText {
   font-size: 0.8em;
+}
+
+details {
+  border: 2px solid #f21368;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+details:hover {
+  transform: translateX(0.3em);
+}
+
+details summary {
+  color: #00adb5;
+  transition: color 0.2s;
+}
+
+details summary:hover {
+  color: #f21368;
+}
+
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--success,
+.notice--danger {
+  color: $text-color;
+  transition: 0.2s;
+}
+
+.notice:hover,
+.notice--primary:hover,
+.notice--info:hover,
+.notice--warning:hover,
+.notice--success:hover,
+.notice--danger:hover {
+  transform: translateY(-0.25em);
 }
 
 button,

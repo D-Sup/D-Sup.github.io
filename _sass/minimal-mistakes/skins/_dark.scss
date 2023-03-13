@@ -14,7 +14,8 @@ $form-background-color: mix(#000, $background-color, 15%) !default;
 $footer-background-color: mix(#000, $background-color, 30%) !default;
 $link-color: mix($primary-color, $text-color, 40%) !default;
 $link-color-hover: #f21368 !default;
-$link-color-visited: mix(#000, $link-color, 25%) !default;
+$link-color-visited: mix($primary-color, $text-color, 40%) !default;
+// mix(#000, $link-color, 25%) !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
@@ -53,8 +54,10 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
     color: #494738;
   }
   .notice--info {
-    background-color: #29414f;
-    color: #eaeaea;
+    background-color: #cee2e8;
+    // #c9eeff
+    // background-color: #29414f;
+    color: #494738;
   }
 }
 
