@@ -207,15 +207,3 @@ transform: translate(-50%, -50%);
 목표를 조금이나마 재설정하고...  
 회고를 통해 앞으로 더 나아가기 위한 길을 바라볼 수 있는 기회를 가진 것 같다  
 지금있는 기회 다시 오지 않을 수 있다 더 잘 활용해보자❗
-
-<!-- comments -->
-<script
-src="https://utteranc.es/client.js"
-repo="D-Sup/D-Sup.github.io"
-issue-term="pathname"
-label="comments"
-theme="gruvbox-dark"
-crossorigin="anonymous"
-async
-></script>
-<!-- comments -->
