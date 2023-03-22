@@ -159,7 +159,26 @@ pre {
 }
 
 pre {
-  overflow-x: auto; /* add scrollbars to wide code blocks*/
+  overflow-x: hidden; /* add scrollbars to wide code blocks*/
+  max-height: 350px;
+  overflow-y: scroll;
+  border: 10px solid #263238;
+}
+
+pre::-webkit-scrollbar {
+  width: 5px;
+}
+
+pre::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #fff;
+  // background: #00c9ff; /* fallback for old browsers */
+  // background: -webkit-linear-gradient(315deg, #92fe9d, #00c9ff); /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(
+  //   315deg,
+  //   #92fe9d,
+  //   #00c9ff
+  // ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* horizontal rule */
