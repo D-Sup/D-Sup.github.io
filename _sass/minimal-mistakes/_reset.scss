@@ -135,6 +135,28 @@ img {
 
 /* Consistent form font size in all browsers, margin changes, misc */
 
+.quizSwitch {
+  border-radius: 3px;
+  border-style: underline;
+  border-bottom: 2px dashed #f21368;
+  background-color: $text-color;
+  cursor: pointer;
+  display: inline;
+  transition: all 0.2s ease-in;
+}
+
+.quizSwitch:hover {
+  box-shadow: 0 0 16px 3px rgba($text-color, 0.3);
+}
+
+.quiz-chek {
+  display: none;
+}
+
+.quiz-chek:checked + .quizSwitch {
+  background: $background-color;
+}
+
 strong {
   color: #f21368;
   font-weight: 600;
