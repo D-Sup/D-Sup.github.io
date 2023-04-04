@@ -10,9 +10,7 @@ toc_sticky: true
 toc_label: 'CONTENTS'
 ---
 
----
-
-<br />
+<br>
 
 <!--  source ~/.bash_profile   -->
 <!-- bundle exec jekyll serve -->
@@ -23,9 +21,6 @@ toc_label: 'CONTENTS'
 <!-- content -->
 
 <br>
-
----
-
 <br>
 
 # 🔗 TIP
@@ -34,52 +29,9 @@ toc_label: 'CONTENTS'
 <!-- content -->
 
 <br>
-
----
-
 <br>
 
 # ✨ Today is ...
 
 <!-- content -->
 <!-- content -->
-
-<!--
-strong,
-. {
-  color: #f21368;
-  font-weight: 500;
-}
-
-.explain {
-  color: #539165;
-}
-
-.subHeading {
-  font-size: 1.15em;
-}
-
-.smallText {
-  font-size: 0.8em;
-}
-
--->
-<!--
-
-{:.notice}
-
-💡
-{:.notice--primary}
-
-🔎
-{:.notice--info}
-
-❌
-{:.notice--danger}
-
-✔️
-{:.notice--success}
-
-⚠️
-{:.notice--warning}
--->
