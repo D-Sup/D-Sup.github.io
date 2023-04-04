@@ -199,14 +199,14 @@ figure.highlight {
     /* Name.Exception */
     color: $base08;
   }
+  .nl {
+    /* Name.Label */
+    color: $base05;
+  }
   .nf {
     /* Name.Function */
     // color: $base0d;
     color: $base0a;
-  }
-  .nl {
-    /* Name.Label */
-    color: $base05;
   }
   .nn {
     /* Name.Namespace */
@@ -288,18 +288,6 @@ figure.highlight {
     /* Literal.String.Regex */
     color: $base0b;
   }
-  .s1 {
-    /* Literal.String.Single */
-    color: $base0b;
-  }
-  .ss {
-    /* Literal.String.Symbol */
-    color: $base0b;
-  }
-  .bp {
-    /* Name.Builtin.Pseudo */
-    color: $base05;
-  }
   .vc {
     /* Name.Variable.Class */
     color: $base08;
@@ -315,6 +303,18 @@ figure.highlight {
   .il {
     /* Literal.Number.Integer.Long */
     color: $base09;
+  }
+  .s1 {
+    /* Literal.String.Single */
+    color: $base0b;
+  }
+  .ss {
+    /* Literal.String.Symbol */
+    color: $base0b;
+  }
+  .bp {
+    /* Name.Builtin.Pseudo */
+    color: $base05;
   }
 }
 
