@@ -30,6 +30,7 @@ repository: D-Sup/D-Sup.github.io' # GitHub username/repo-name e.g. "mmistakes/m
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: "dev's gait" # overrides the website title displayed in the masthead, use " " for no title
+future : true
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
