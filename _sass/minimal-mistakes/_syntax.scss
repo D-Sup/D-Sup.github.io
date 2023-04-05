@@ -199,11 +199,6 @@ figure.highlight {
     /* Name.Exception */
     color: $base08;
   }
-  .nf {
-    /* Name.Function */
-    // color: $base0d;
-    color: #e0ac16;
-  }
   .nl {
     /* Name.Label */
     color: $base05;
@@ -316,6 +311,11 @@ figure.highlight {
   .il {
     /* Literal.Number.Integer.Long */
     color: $base09;
+  }
+  .nf {
+    /* Name.Function */
+    // color: $base0d;
+    color: #e0ac16;
   }
 }
 
