@@ -174,7 +174,6 @@ markdown_ext: 'markdown,mkdown,mkdn,mkd,md'
 
 # Conversion
 markdown: kramdown
-input: GFM
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -185,6 +184,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   auto_ids: true
+  syntax_highlighter: rouge
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
