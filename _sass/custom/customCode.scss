@@ -1,0 +1,99 @@
+.code-toolbar {
+  width: 100%;
+}
+
+div.code-toolbar > .toolbar {
+  height: calc(100% - 0.6em);
+  right: 0.3em;
+
+  & > .toolbar-item:first-child > span {
+    background: none;
+    color: $base0a;
+    box-shadow: none;
+  }
+
+  .copy-to-clipboard-button {
+    position: absolute;
+    right: 0.3em;
+    bottom: 0.3em;
+    width: 3em;
+    height: 3em;
+
+    > span {
+      display: none;
+    }
+
+    &::after {
+      font-family: 'Font Awesome 5 Free';
+      content: '\f0c5';
+      font-size: 1.5em;
+
+      :hover {
+        font-weight: inherit;
+      }
+    }
+  }
+
+  .copy-to-clipboard-button:focus {
+    outline: none;
+    font-weight: inherit;
+    background: rgba(224, 224, 224, 0.3);
+  }
+
+  .copy-to-clipboard-button:hover {
+    background: rgba(224, 224, 224, 0.3);
+  }
+}
+
+pre[class*='language-'] {
+  border-radius: $border-radius;
+
+  ::selection {
+    background-color: $base03;
+    color: $base0a;
+  }
+}
+
+pre[class*='language-'].line-numbers {
+  position: relative;
+  padding-left: 3.8em;
+  counter-reset: linenumber;
+}
+
+pre[class*='language-'].line-numbers > code {
+  position: relative;
+  white-space: inherit;
+}
+
+.line-numbers .line-numbers-rows {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  font-size: 100%;
+  left: -3.8em;
+  width: 3em; /* works for line-numbers below 1000 lines */
+  letter-spacing: -1px;
+  border-right: 1px solid #999;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.line-numbers-rows > span {
+  display: block;
+  counter-increment: linenumber;
+}
+
+.line-numbers-rows > span:before {
+  content: counter(linenumber);
+  color: #999;
+  display: block;
+  padding-right: 0.8em;
+  text-align: right;
+}
+
+.token.comment::after {
+  content: none;
+}
