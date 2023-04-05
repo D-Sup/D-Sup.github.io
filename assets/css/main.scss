@@ -9,5 +9,7 @@ search: false
 @import 'minimal-mistakes/skins/default'; // skin
 @import 'minimal-mistakes'; // main partials
 
+@import 'minimal-mistakes/minimal-mistakes.scss';
+
 @import 'custom/customOverride.scss';
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400'); // Nanum Gothic
