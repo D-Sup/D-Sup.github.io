@@ -59,7 +59,7 @@ figure.highlight {
 .highlight .hll {
   background-color: $base06;
 }
-.highlight {
+.highlight .syntax code span{
   .c {
     /* Comment */
     color: $base04;
