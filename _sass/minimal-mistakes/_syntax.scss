@@ -173,7 +173,7 @@ figure.highlight {
   }
   .na {
     /* Name.Attribute */
-    // color: $base0d;
+    color: $base0d;
   }
   .nb {
     /* Name.Builtin */
@@ -199,6 +199,10 @@ figure.highlight {
     /* Name.Exception */
     color: $base08;
   }
+  .nf {
+    /* Name.Function */
+    color: $base0a;
+  }
   .nl {
     /* Name.Label */
     color: $base05;
@@ -207,11 +211,10 @@ figure.highlight {
     /* Name.Namespace */
     color: $base0a;
   }
-  // .nx {
-  //   /* Name.Other */
-  //   color: $base0d;
-  //   // color: $base09;
-  // }
+  .nx {
+    /* Name.Other */
+    color: $base0d;
+  }
   .py {
     /* Name.Property */
     color: $base05;
@@ -311,11 +314,6 @@ figure.highlight {
   .il {
     /* Literal.Number.Integer.Long */
     color: $base09;
-  }
-  .nf {
-    /* Name.Function */
-    // color: $base0d;
-    color: $base0a !important;
   }
 }
 
