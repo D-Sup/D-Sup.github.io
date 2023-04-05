@@ -185,9 +185,6 @@ kramdown:
   hard_wrap: false
   auto_ids: true
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    default_lang: html
-    css_class : 'syntax'
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
