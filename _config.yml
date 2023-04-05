@@ -183,7 +183,7 @@ incremental: false
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    default_lang: html
+    default_lang: javascript
     css_class   : 'highlight'
   # input: GFM
   hard_wrap: false
