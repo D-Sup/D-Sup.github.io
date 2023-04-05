@@ -159,11 +159,13 @@ pre {
 }
 
 pre {
-  overflow-x: hidden; /* add scrollbars to wide code blocks*/
-  max-height: 350px;
+  overflow-x: hidden !important; /* add scrollbars to wide code blocks*/
+  max-height: 400px;
   overflow-y: scroll;
-  border: 10px solid #231e18;
+  overflow-y :hidden;
+  border: 10px solid hsl(220, 13%, 18%);;
   border-radius: 5px;
+  outline: 1px solid #fff;
 }
 
 pre::-webkit-scrollbar {

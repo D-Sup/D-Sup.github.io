@@ -181,12 +181,7 @@ incremental: false
 
 # Markdown Processing
 kramdown:
-  syntax_highlighter: prism # rouge
-  # syntax_highlighter_opts:
-  #   block:
-  #     line_numbers: true
-  syntax_highlighter_opts:
-    disable: true
+  syntax_highlighter: prism
   input: GFM
   hard_wrap: false
   auto_ids: true
@@ -194,16 +189,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  # enable_coderay: true
-
-  # input: GFM
-  # hard_wrap: false
-  # auto_ids: false
-  # footnote_nr: 1
-  # entity_output: as_char
-  # toc_levels: 1..6
-  # smart_quotes: lsquo,rsquo,ldquo,rdquo
-  # # enable_coderay: false
+  # enable_coderay: false
 
 # Sass/SCSS
 sass:
