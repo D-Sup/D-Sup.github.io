@@ -184,7 +184,7 @@ kramdown:
   input: GFM
   syntax_highlighter_opts:
     default_lang: html
-    css_class   : 'syntax'
+    css_class   : 'highlight'
   # input: GFM
   # hard_wrap: false
   # auto_ids: true
