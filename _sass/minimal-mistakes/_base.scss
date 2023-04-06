@@ -159,17 +159,27 @@ pre {
 }
 
 pre {
-  overflow-x: hidden !important; /* add scrollbars to wide code blocks*/
+  // overflow-x: hidden !important; /* add scrollbars to wide code blocks*/
   max-height: 400px;
   overflow-y: scroll;
-  overflow-y :hidden;
-  border: 10px solid hsl(220, 13%, 18%);;
+  border: 10px solid $code-block-background;
+  background: $code-block-background;
   border-radius: 5px;
-  outline: 1px solid #fff;
+  outline: 2px solid #fff;
+  box-shadow: rgba($text-color, 0.35) 0px 2px 15px;
+}
+
+// pre::-webkit-scrollbar{
+//   display: none; 
+// }
+
+pre::-webkit-scrollbar-corner{
+  display: none;
 }
 
 pre::-webkit-scrollbar {
   width: 5px;
+  height: 5px;
 }
 
 pre::-webkit-scrollbar-thumb {
