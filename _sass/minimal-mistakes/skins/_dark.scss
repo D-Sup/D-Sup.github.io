@@ -86,7 +86,9 @@ $hover-color: #E06B74;
   .notice--warning,
   .notice--success,
   .notice--danger {
-  }
+    box-shadow: 0 5px 0 $text-color;
+    border-radius: 15px;
+}
   .notice--primary {
     background-color: #FFDF44;
     color: #494738;

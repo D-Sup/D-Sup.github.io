@@ -13,7 +13,8 @@ toc_label: 'CONTENTS'
 ---
 
 <br>
-
+<!-- https://kr.freepik.com/
+https://ye-yo.github.io/thumbnail-maker/ -->
 <!--  source ~/.bash_profile   -->
 <!-- bundle exec jekyll serve -->
 

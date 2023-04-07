@@ -138,7 +138,7 @@ img {
 .quizSwitch {
   border-radius: 3px;
   border-style: underline;
-  border-bottom: 2px dashed $primary-color;
+  border-bottom: 2px dashed $hover-color;
   background-color: $text-color;
   padding: 0 5px;
   cursor: pointer;
@@ -181,8 +181,7 @@ strong {
 }
 
 .img:hover {
-  box-shadow: inset 2px 2px 2px 0px rgba($text-color, 0.8), 7px 7px 20px 0px rgba($text-color, 0.4),
-    4px 4px 5px 0px rgba($text-color, 0.4);
+  box-shadow: 5px 5px 10px 0px rgba($text-color, 0.7);
   // box-shadow: 0 14px 28px rgba($text-color, 0.25), 0 10px 10px rgba($text-color, 0.22);
 }
 
@@ -202,7 +201,7 @@ details:hover {
 }
 
 details summary {
-  color: #00adb5;
+  color: $hover-color;
   transition: color 0.2s;
 }
 

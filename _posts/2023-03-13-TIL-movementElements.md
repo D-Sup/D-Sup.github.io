@@ -1,12 +1,12 @@
 ---
-title: 'TIL-10DAY 스프린트 회고 && 요소의 움직임'
+title: '스프린트 회고 && 요소의 움직임'
 excerpt_separator: '<!--more-->'
 categories:
   - CodeLion
 tags:
   -
 header:
-  teaser: "https://www.scotsman.com/webimg/b25lY21zOmRmYmExYzE4LTZhY2ItNDBkZS1iMTU1LWY4YTVlZWNmYTdkYzowOTcxZDZlOC00MDc1LTQzYzItOWEyOC00YjNlNzFiY2Y1YzI=.jpg?width=1200&enable=upscale"
+  teaser: ./assets/image/7.png
 toc: true
 toc_sticky: true
 toc_label: 'CONTENTS'

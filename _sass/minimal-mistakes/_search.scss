@@ -93,6 +93,12 @@
     font-size: $type-size-6;
   }
 
+  .results {
+    .list__item{
+      margin: 0;
+    }
+  }
+
   .archive__item {
     margin-bottom: 2em;
 
