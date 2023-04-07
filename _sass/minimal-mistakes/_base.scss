@@ -36,7 +36,7 @@ h6 {
 h1 {
   margin-top: 0;
   font-size: $h-size-1;
-  color: #00adb5;
+  color: $primary-color;
 }
 
 h2 {
@@ -112,7 +112,7 @@ blockquote {
   padding-left: 1em;
   padding-right: 1em;
   // font-style: italic;
-  border-left: 0.25em solid #f21368;
+  border-left: 0.25em solid $primary-color;
   // $primary-color
   cite {
     // font-style: italic;
@@ -165,7 +165,7 @@ pre {
   border: 10px solid $code-block-background;
   background: $code-block-background;
   border-radius: 5px;
-  outline: 2px solid #fff;
+  outline: 2px solid $hover-color;
   box-shadow: rgba($text-color, 0.35) 0px 2px 15px;
 }
 

@@ -15,7 +15,7 @@
   border: 0;
   outline: none;
 
-  color: #f21368;
+  color: $primary-color;
   // $primary-color
   background-color: transparent;
   cursor: pointer;
@@ -23,7 +23,7 @@
   transition: 0s;
 
   &:hover {
-    color: mix(#000, #00adb5, 25%);
+    color: mix(#000, $link-color-hover, 25%);
     // $primary-color
   }
 }

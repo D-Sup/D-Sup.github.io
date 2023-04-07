@@ -5,6 +5,8 @@ categories:
   - CodeLion
 tags:
   -
+header:
+  teaser:
 toc: true
 toc_sticky: true
 toc_label: 'CONTENTS'
