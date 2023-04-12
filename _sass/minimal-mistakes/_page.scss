@@ -409,7 +409,7 @@ body {
   margin-bottom: 2em;
   padding: 0 0 5em;
   border-bottom: solid 1px #53565d;
-  font-size: 0.75em;
+  font-size: $type-size-A;
   list-style: none;
 
   @include breakpoint($large) {
