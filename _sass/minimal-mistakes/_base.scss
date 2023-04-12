@@ -160,6 +160,7 @@ pre {
 
 pre {
   // overflow-x: hidden !important; /* add scrollbars to wide code blocks*/
+  font-size: $type-size-B;
   max-height: 400px;
   overflow-y: scroll;
   border: 10px solid $code-block-background;

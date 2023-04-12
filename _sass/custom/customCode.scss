@@ -36,7 +36,6 @@ pre[class*="language-"] {
   color: hsl(220, 14%, 71%);
   text-shadow: 0 1px rgba(0, 0, 0, 0.3);
   font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
-  font-size: $type-size-5;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -309,6 +308,7 @@ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
 
 pre[class*=language-].line-numbers {
 position: relative;
+font-size: $type-size-B;
 padding-left: 3.8em !important;
 counter-reset: linenumber
 }
