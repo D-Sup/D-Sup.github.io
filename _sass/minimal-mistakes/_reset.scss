@@ -13,16 +13,16 @@ html {
   font-size: $type-size-A;
 
   @include breakpoint($medium) {
-    font-size: $type-size-A
+    font-size: $type-size-5
   }
 
   @include breakpoint($large) {
-    font-size: $type-size-A
+    font-size: $type-size-5
   }
 
   @include breakpoint($x-large) {
     // font-size: 16px;
-    font-size: $type-size-A
+    font-size: $type-size-5
   }
 
   -webkit-text-size-adjust: 100%;

@@ -57,7 +57,7 @@ let num = undefined;
 
 <br>
 
-<span class='explain'>값을 대입하지 않은 변수, 즉 데이터 영역의 메모리 주소를 지정하지 않은 식별자에 접근할 때</span>
+#### <span class='explain'>값을 대입하지 않은 변수, 즉 데이터 영역의 메모리 주소를 지정하지 않은 식별자에 접근할 때</span>
 ---
 ```js
 let a
@@ -68,7 +68,7 @@ console.log(a) // undefined
 
 <br>
 
-<span class='explain'>객체 내부의 존재하지 않는 프로퍼티에 접근하려고 할 때</span>
+#### <span class='explain'>객체 내부의 존재하지 않는 프로퍼티에 접근하려고 할 때</span>
 ---
 ```js
 const person = {name: 'DongSup', age: 20};
@@ -79,7 +79,7 @@ console.log(person.address); // undefined
 
 <br>
 
-<span class='explain'>return 문이 없거나 호출되지 않는 함수의 실행결과</span>
+#### <span class='explain'>return 문이 없거나 호출되지 않는 함수의 실행결과</span>
 ---
 ```js
 function foo() {
