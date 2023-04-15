@@ -30,7 +30,7 @@ https://ye-yo.github.io/thumbnail-maker/ -->
 
 ### 사용자가 명시적으로 지정하는 경우
 
-> 변수에 undefined를 할당하는 것으로   
+> 변수를 선언하고 초기값으로 undefined를 직접 할당하는 방법으로    
 > 변수의 값을 undefined로 지정할 수 있다
 
 ```js
@@ -48,7 +48,7 @@ let num = undefined;
 <br>
 &emsp;값을 대입하지 않은 변수, 즉 데이터 영역의 메모리 주소를 지정하지 않은 식별자에 접근할 때  
 &emsp;객체 내부의 존재하지 않는 프로퍼티에 접근하려고 할 때  
-&emsp;return 문이 없거나 호출되지 않는 함수의 실행결과
+&emsp;return 문이 없거나 호출되지 않는 함수를 실행할 때
 {:.notice--primary}
 
 🔎 undefined가 없다면?  
@@ -79,7 +79,7 @@ console.log(person.address); // undefined
 
 <br>
 
-#### <span class='explain'>return 문이 없거나 호출되지 않는 함수의 실행결과</span>
+#### <span class='explain'>return 문이 없거나 호출되지 않는 함수를 실행할 때</span>
 ---
 ```js
 function foo() {
@@ -101,8 +101,40 @@ console.log(bar()); // undefined
 
 <br>
 
+### undefined가 존재하지 않는다면?
+
+> undefined가 존재하지 않는다는 가정하에 
+> 가장 크게 작용할 수 있는 문제는 변수에 값을 할당하지 않았을 때 이다
+
+```js
+let num
+console.log(num); // ?
+```
+
+🔎 변수 num이 undefined로 초기화되지 않았기 때문에 변수 num 값은 무엇인지 알 수 없다  
+🔎 이것은, 코드 상에 버그가 존재하는 것이자 디버깅의 난이도가 높아지는 것을 야기시킬 수 있다
+{:.notice--info}
+
+<br>
+
+```js
+let num;
+if (typeof num === "undefined") {
+  console.log('변수 num이 정의되지 않았습니다.');
+} else {
+  console.log(num);
+}
+```
+
+🔎 따라서 변수를 사용하기 전에 값이 할당되어 있는지 체크하거나,  
+&emsp;명시적으로 값을 할당해주는 식의 예외처리를해야하는 번거러움이 생길 수 있다
+{:.notice--info}
+
+<br>
+
 #### 배열과 undefined
 
+> 값을 할당했을때와 할당하지 않았을 때 어떠한 차이점이 있을까?  
 > 변수에 undefined를 할당하는 것은 하나의 값을 동작한다  
 > 하지만 사용자가 아닌 자바스크립트 엔진이 undefined를 부여하는 경우 문자 그대로 값이 없음을 나타낸다
 
@@ -119,7 +151,7 @@ console.log(arr3); // [empty x 3]
 ```
 
 🔎 즉, arr.length 나 new 연산자와 Array 생성자 함수를 호출해서 배열 인스턴스를 생성하는 경우  
-배열의 길이를 설정하는 것으로 배열 요소의 개수를 지정하는 것이지, 요소에 값을 할당하는 것과는 별개이다
+배열의 길이를 설정하는 것으로 배열 요소의 개수를 지정하는 것이지, 요소에 값을 할당하는 것과는 별개라는 것을 인지해야 한다
 {:.notice--info}
 
 <br>
@@ -149,13 +181,13 @@ arr2.reduce((p, c, i) => { return p + c + i }, '');  // 11
 ```
 
 ✔️ map 메서드의 경우 arr1에 할당된 요소를 처리하면서, 새로운 요소를 반환한다  
-&emsp;그 과정에서 undefined + i 로 인해 number형으로 형변환이 이루어져 NaN이 반환된다
+&emsp;그 과정에서 undefined + i 로 인해 number형으로 형변환이 이루어져 NaN이 반환된다  
 <br>
 ✔️ filter 메서드의 경우 "undefined" 값이 할당된 요소를 건너뛰고, 조건에 맞는 요소만 반환한다  
 &emsp;논리 부정연산자로 인해서 arr1은 1이 아닌 undefined가 반환되고  
-&emsp;arr2 는 !1 가 false를 반환하므로 빈배열이 반환된다
+&emsp;arr2 는 !1 가 false를 반환하므로 빈배열이 반환된다  
 <br>
-✔️ arr2 비어있는 요소에 대해서 어떠한 처리도 하지 않고 건너뛰는 것을 볼 수 있다
+✔️ arr2의 첫 번째 요소는 비어있는데, 비어있는 요소에 대해서 어떠한 처리도 하지 않고 건너뛰는 것을 볼 수 있다
 {:.notice--success}
 
 
@@ -227,13 +259,81 @@ var a = 10;
 
 ## null
 
+> 값이 없음을 나타내는 특별한 값으로  
 > 비어있음을 명시적으로 나타내고 싶을 때는 undefined가 아닌 null을 쓰면 된다
+
+### null의 이점
+
+```js
+let person = {
+  name: 'dongsup',
+  age: undefined,
+};
+console.log(person.name); // 'dongsup'
+console.log(person.age); // undefined
+
+if (person.age === undefined){
+  person.age = null;
+}
+console.log(person.name); // 'dongsup'
+console.log(person.age); // null
+```
+
+🔎 person 객체 내의 age라는 키의 값을 undefined로 지정해놓은것을 확인할 수 있다  
+🔎 하지만 만약, 사용자가 객체 내부에 대한 인지를 하지 못했다면  
+&emsp;undefined를 자바스크립트 엔진이 부여한것인지 사용자가 직접 지정한 것인지 알 수 없다  
+🔎 따라서, null로 값이 없음을 명시적으로 나타낸다면 더 높은 가독성, 더 명확한 타입, 더불어 에러 가능성을 낮출 수 있다
+{:.notice--info}
 
 ⚠️ null은 왜 object 라고 뜨는가?
 <br>
 &emsp;자바스크립트 초기 버전의 버그이다  
 &emsp;JavaScript 설계자가 설계의 오류를 인정하는 부분에서 알 수 있듯, 원시타입으로 보는 것이 맞다
 {:.notice--warning}
+
+<br>
+
+### null 의 큰 단점
+
+```js
+let person = {
+  name: 'dongsup'
+};
+let myObj = null;
+console.log(typeof person); // object
+console.log(typeof myObj); // object
+console.log(Object.keys(person)); // ['name']
+console.log(Object.keys(myObj)); // TypeError: Cannot convert undefined or null to object
+```
+
+🔎 null은 객체타입으로 인식되는 버그가 있어서 null을 객체로 잘못 오인하고,  
+&emsp;객체에 대한 메서드나 속성을 사용해서 예기치 않은 동작이 발생할 수 있다
+{:.notice--info}
+
+<br>
+
+```js
+let num = null;
+
+if(num === null || num === undefined) {
+  console.log('num is null or undefined');
+} else if (num === 0) {
+  console.log('num is zero');
+} else {
+  console.log('num is not null, undefined, or zero');
+}
+```
+
+🔎 null의 사용은 falsy한 값이 하나 더 추가되는 것이다  
+🔎 예를 들어, number 타입의 경우 falsy 한 값을 확인하기 위해  
+&emsp;숫자 0과 null, undefined를 모두 명시적으로 확인해야한다
+{:.notice--info}
+
+
+💡 따라서, null대신 undefined만을 사용하는 것이 여러방면에서 좋겠지만 오랜 기간 마치 표준인 것처럼 사용해왔고  
+&emsp;이것을 변경했을 때, 객체가 존재하지 않는 상황을 처리하지 못하는 등  
+&emsp;기존 코드에 끼치는 영향이 크기 때문에 회사에서 정한 컨벤션에 맞게, null 사용에 대한 고려를 할 필요가 있다
+{:.notice--primary}
 
 <br>
 
@@ -250,7 +350,8 @@ console.log(NaN == NaN);
 // false
 ```
 
-🔎 동등 연산자를 사용해 null과 undefined를 비교하면 특별한 규칙이 적용돼 true가 반환된다  
+🔎 동등 연산자를 사용해 null과 undefined를 비교하면  
+&emsp;두 값 모두 값이 없다는 것을 나타내는 특별한 규칙이 적용돼 true가 반환된다  
 🔎 하지만 다른 값들과는 false가 반환된다  
 🔎 undefined나 null일 때 형 변환을 하지 않는다   
 🔎 **undefined**가 **NaN**으로 변환되는데, **NaN** 이 형변환이 이루어졌을 때는 **false**를 반환하겠지만   
@@ -261,25 +362,3 @@ console.log(NaN == NaN);
 
 ⚠️ 일치 연산자 ===를 제외한 비교 연산자의 피연산자에 undefined나 null이 오지 않도록 특별히 주의하자
 {:.notice--warning}
-
-<br>
-
-### null 의 큰 단점
-
-> 대부분의 프로그래밍 언어는 없음을 표현하는 값 또는 타입이 한가지 인데  
-> 왜 자바스크립트는 undefined과 null이 있을까? 
-
-> null은 개발자의 의도로 사용되는 반면 undefined는 자바스크립트 엔진에 의해서 사용된다는 점에 있다  
-> 즉 자바스크립트 엔진이 null을 사용하지 않고 undefined를 사용하고 있기때문에
-
-🔎 개발자의 의도로 null을 사용하게 된다면 falsy한 값을 확인해야 하는 상황에서   
-&emsp;undefined와 null 두 가지를 모두 명시적으로 확인해야 한다  
-&emsp;예를 들어 number 변수의 경우 숫자 0 값과 null 값과 undefined를 모두 확인해야 하는 것이다
-{:.notice--info}
-
-> null의 사용은 falsy한 값이 더 추가되는 것이기 때문에
-
-🔎 null의 타입을 object로 판별하기 때문에   
-&emsp;명백한 버그임에도 바꿀 수 없는 것은 너무 오랜 기간 마치 표준인 것처럼 사용됐고   
-&emsp;그래서 이것을 변경했을 때 기존 코드에 미치는 영향이 크기 때문에 해결될 가능성이 적다
-{:.notice--info}
