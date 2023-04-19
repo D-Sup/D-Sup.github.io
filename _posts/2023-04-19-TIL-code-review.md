@@ -792,7 +792,8 @@ emailForm.addEventListener('submit', e => {
 🔎 `open`, `close`, `show` 와 같은 속성을 가질 수 있는데  
 &emsp;js에서 `showModal()` 메서드를 통해 대화 상자를 열 수 있다  
 <br>
-🔎 기본적으로 dialog 에는 `close()` 메서드가 **내장**되어있어서 js코드 없이도 모달을 닫을 수 있다
+🔎 기본적으로 dialog 에는 `close()` 메서드가 **내장**되어있어서 js코드 없이도 모달을 닫을 수 있다  
+🔎 `::backdrop` 가상요소를 사용해서 dialog 요소의 뒤에 스타일을 적용할 수 있다
 {:.notice--info}
 
 <br>
