@@ -32,7 +32,7 @@ code[class*="language-"],
 pre[class*="language-"] {
   // background: $code-block-background;
   // hsl(220, 13%, 18%);
-  border-radius: 10px;
+  // border-radius: 10px;
   color: hsl(220, 14%, 71%);
   text-shadow: 0 1px rgba(0, 0, 0, 0.3);
   font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
@@ -71,9 +71,10 @@ pre[class*="language-"] *::selection {
 /* Code blocks */
 pre[class*="language-"] {
   padding: 1em;
-  margin: 0.5em 0;
+  // margin: 0.5em 0;
+  margin: 0 0 0.5em 0;
   overflow: auto;
-  border-radius: 0.3em;
+  // border-radius: 0.3em;
 }
 
 /* Inline code */
@@ -288,6 +289,15 @@ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:hover,
 div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
   background: hsl(220, 13%, 28%);
   color: hsl(220, 14%, 71%);
+}
+
+.code-toolbar::before {
+  content: '';
+  height: 34px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #475569 url(../../assets/logo/btn-bg.svg)  10px center no-repeat;
+  display: block;
 }
 
 /* Line Highlight plugin overrides */

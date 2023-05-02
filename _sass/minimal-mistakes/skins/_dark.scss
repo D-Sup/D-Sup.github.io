@@ -36,7 +36,7 @@ $link-color-visited: mix($primary-color, $text-color, 40%) !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
-$code-block-background: $background-color;
+$code-block-background: #1e293b;
 $hover-color: #E06B74;
 
 .author__urls.social-icons i,
