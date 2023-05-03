@@ -9,6 +9,7 @@
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
+  background-image: $background-image;
   background-color: $background-color;
   font-size: $type-size-A;
 
