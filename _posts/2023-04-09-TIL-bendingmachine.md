@@ -279,7 +279,7 @@ function appendEarnedItems() {
   });
 }
 ```
-{: .language-js .data-line="10,11,12,13,14,15,16"}
+{: .language-js data-line="10,11,12,13,14,15,16"}
 
 ✔️ finalAmount 변수를 추가하여 획득을 누를 때마다 총액에 총액이 더해지도록 했다  
 ✔️ 획득이 이루어진 경우 appendEarnedItems() 함수를 호출하여 장바구니에 있던 음료들을  
