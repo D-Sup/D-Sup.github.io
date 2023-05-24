@@ -46,7 +46,7 @@ api.openweathermap.org/data/2.5/forecast?q={city name}&appid={API key} // 5일�
 <br>
 <br>
 
-## fectch로 데이터 불러오기
+## fetch로 데이터 불러오기
 
 ```js
 import React from 'react';
@@ -80,7 +80,7 @@ export default App;
 
 ## async await로 변환하기
 
-```
+```js
 import React from 'react';
 
 function App() {
@@ -102,7 +102,7 @@ function App() {
 
 export default App;
 ```
-{: .line-numbers data-line="7, 8, 11, 12"}
+{: .language-js .line-numbers data-line="7, 8, 11, 12"}
 
 <img class='img' src='https://github.com/D-Sup/BlogStorage/assets/96939334/a299c172-d0e7-430d-aba6-836a36eff398' alt=''>
 
@@ -116,7 +116,7 @@ export default App;
 
 ## useState로 데이터를 화면에 그리기
 
-```
+```js
 import React, { useState } from 'react';
 
 function App() {
