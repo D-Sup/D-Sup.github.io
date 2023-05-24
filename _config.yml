@@ -182,6 +182,8 @@ incremental: false
 # Markdown Processing
 kramdown:
   syntax_highlighter: prism
+  syntax_highlighter_opts:
+    disable: true
   input: GFM
   hard_wrap: false
   auto_ids: true
@@ -189,6 +191,14 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+  # input: GFM
+  # hard_wrap: false
+  # auto_ids: true
+  # footnote_nr: 1
+  # entity_output: as_char
+  # toc_levels: 1..6
+  # smart_quotes: lsquo,rsquo,ldquo,rdquo
   # enable_coderay: false
 
 # Sass/SCSS

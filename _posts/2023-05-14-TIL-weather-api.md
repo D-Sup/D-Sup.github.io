@@ -80,7 +80,7 @@ export default App;
 
 ## async await로 변환하기
 
-```js
+```
 import React from 'react';
 
 function App() {
@@ -116,7 +116,7 @@ export default App;
 
 ## useState로 데이터를 화면에 그리기
 
-```js
+```
 import React, { useState } from 'react';
 
 function App() {
