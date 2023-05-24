@@ -6,7 +6,7 @@ categories:
 tags:
   -
 header:
-  teaser: ./assets/image/30.png
+  teaser: ./assets/image/31.png
 toc: true
 toc_sticky: true
 toc_label: 'CONTENTS'
