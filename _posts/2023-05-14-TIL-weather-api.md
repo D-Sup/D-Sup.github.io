@@ -33,7 +33,6 @@ api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key} // 현재 
 api.openweathermap.org/data/2.5/forecast?q={city name}&appid={API key} // 5일치 일기예보 API
 ```
 
-
 🔎 각 API의 호출법을 살펴보면 `?` 부분 부터 key와 value 형태로 데이터를 서버에 요청하는 **쿼리스트링 방식**임을 알 수 있다  
 <br>
 🔎 이런식으로 서버에 요청을하면 q 라는 매개변수를 통해 서버에서 데이터를 조회하고   
@@ -70,7 +69,7 @@ function App() {
 
 export default App;
 ```
-{: .language-js .line-numbers data-line=4, 5, 7, 8, 9, 10, 11, 12, 13, 15}
+{: .language-js .line-numbers data-line="4, 5, 7, 8, 9, 10, 11, 12, 13, 15"}
 
 💡 그 다음 코드를 좀 더 간결하게 **async await**를 통해 변환해보자
 {:.notice--primary}
