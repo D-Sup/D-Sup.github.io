@@ -239,7 +239,7 @@ var 가위바위보게임 = function () {
   }
 }
 ```
-{: .language-js .line-numbers data-line="6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 43"}
+{: .language-js .line-numbers .data-line="6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 43"}
 
 > 이번에는 가위바위보라는 함수를 실행함으로써   
 > options, choice, moved 라는 변수들은 private로 구분해서 외부에서의 접근을 제한했고,  
@@ -371,7 +371,7 @@ var 가위바위보게임 = function () {
   return publicMembers;
 };
 ```
-{: .language-js .line-numbers data-line="6, 43, 44, 45"}
+{: .language-js .line-numbers .data-line="6, 43, 44, 45"}
 
 > 위와 같이, 객체의 모든 속성들이 불변 상태로 유지되도록 할 수 있다  
 > 따라서 publicMebers라는 객체를 따로 만들어서   

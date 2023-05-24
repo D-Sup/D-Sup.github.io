@@ -102,7 +102,7 @@ function App() {
 
 export default App;
 ```
-{: .language- .line-numbers data-line="7, 8, 11, 12"}
+{: .language-js .line-numbers data-line="7, 8, 11, 12"}
 
 <img class='img' src='https://github.com/D-Sup/BlogStorage/assets/96939334/a299c172-d0e7-430d-aba6-836a36eff398' alt=''>
 
@@ -197,7 +197,7 @@ function App() {
 
 export default App;
 ```
-{: .language- .line-numbers data-line="1, 17, 19"}
+{: .language-js .line-numbers data-line="1, 17, 19"}
 
 <img class='img' src='https://github.com/D-Sup/BlogStorage/assets/96939334/a299c172-d0e7-430d-aba6-836a36eff398' alt=''>
 
