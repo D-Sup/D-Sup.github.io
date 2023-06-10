@@ -34,7 +34,7 @@ https://ye-yo.github.io/thumbnail-maker/ -->
 <br>
 <br>
 
-> 운영자님께서 DM으로 동료특강 요청에 대한 부탁을 주셨다. ㅎㅎ
+> 운영자님께서 DM으로 동료특강 요청에 대한 부탁을 주셨다. 🫢
 
 <img class='img' src='https://github.com/D-Sup/D-Sup.github.io/assets/96939334/a1ecffa3-e353-4682-8e83-8e438077ca99' alt=''>
 
@@ -50,12 +50,12 @@ https://ye-yo.github.io/thumbnail-maker/ -->
 
 나를 이미 알고 계신 동료분들도 많았지만,   
 나를 잘 모르시는 동료분들도 많았기에,   
-많은 동료들 앞에서 특강을 진행하는 상상을 하니 어지러움이 느껴졌다.
+많은 동료들 앞에서 특강을 진행하는 상상을 하니 어지러웠다...
 
 <br>
 <br>
 
-> 생각할 것 없이 바로 승낙했다 😄
+> 아무튼 더 생각할 것 없이 바로 **승낙**했다 😄
 
 <img class='img' src='https://github.com/D-Sup/D-Sup.github.io/assets/96939334/4e48e392-0395-4c47-96f5-4ba2e2b7c552' alt=''>
 
@@ -67,6 +67,7 @@ https://ye-yo.github.io/thumbnail-maker/ -->
 
 # 동료특강 준비과정
 ---
+
 > 특강 주제를 정하기 위해 먼저 우리 **회고조 분들에게 도움**을 청했다.  
 
 최근에 공부하면서 어떤 부분이 이해가 안되고 어려웠는지,   
@@ -74,12 +75,12 @@ https://ye-yo.github.io/thumbnail-maker/ -->
 
 <span class='explain smallText'>내용은 이러했다~</span>
 
-💡 `Promise` 를 실제로 코드에 적용하려니 어렵다.  
+💡 `Promise` 를 실제로 코드에 적용하려니 어려워요.  
 <br>
-💡 `Promise` 는 이해가 가는데, `Promise.all` 로 **병렬 처리**하는 부분이 아직 어렵다.   
+💡 `Promise` 는 이해가 가는데, `Promise.all` 로 **병렬 처리**하는 부분이 아직 어려워요.   
 <br>
 💡 `JavaScript` 에서 비동기 통신을 구현하는 것은 익숙해졌는데,  
-&emsp;&emsp;**리액트**에서 `useState` 와 `useEffect` 로 렌더링을 제어하면서 **비동기 통신**을 처리하는 부분이 좀 어렵다.
+&emsp;&emsp;**리액트**에서 `useState` 와 `useEffect` 로 렌더링을 제어하면서 **비동기 통신**을 처리하는 부분이 좀 어려워요.
 {:.notice--primary}
 
 <br>
@@ -100,11 +101,17 @@ API 비동기 통신과 React를 복습하는 느낌으로 특강을 준비하�
 <img class='img' src='https://github.com/D-Sup/D-Sup.github.io/assets/96939334/172d47ff-7b83-43fa-833b-e53927811a1d' alt=''>
 <img class='img' src='https://github.com/D-Sup/D-Sup.github.io/assets/96939334/665f329a-c4a9-4cb6-98aa-191dd1996159' alt=''>
 
+💡 날씨 위젯 관련 포스팅 링크  
+<br>
+&emsp;[[chapter.1] React로 날씨 Open API 다루기](https://d-sup.github.io/react/TIL-weather-api/)  
+&emsp;[[chapter.2] React로 날씨 Open API 다루기](https://d-sup.github.io/react/TIL-weather-api-2/)  
+{:.notice--primary}
+
 <br>
 <br>
 
 > 요구사항에 맞게 구현만 하는 중간 과제를 수행할 때와는 완전히 다른 느낌이었다.   
-> 문제는 여기서부터 시작되었다.
+> **문제는 여기서부터 시작되었다.**
 
 특강을 진행하는데 주어진 시간은 1시간~1시간30분...  
 목차별로 스크립트를 써내려가다 보니, 특강에서 전달해야 할 내용이 생각보다 많았다.   
@@ -120,7 +127,7 @@ API 비동기 통신과 React를 복습하는 느낌으로 특강을 준비하�
 > 어떻게든 분량을 줄이기 위해 꼭 설명하지 않고 넘어갈 수 있는 내용들을 교안에 담으려고 노력했다.
 
 시간이 부족해서 특강을 하루 더 미루어야 하나 고민했지만,   
-이미 특강 공지가 올라가 있는 이상 무를 수 없었다. 
+이미 특강 공지를 올린 이상 무를 수 없었다. 
 
 <img class='img' src='https://github.com/D-Sup/D-Sup.github.io/assets/96939334/e9938a5f-0ac2-4993-8a82-52ae90310f2e' alt=''>
 
@@ -140,7 +147,7 @@ API 비동기 통신과 React를 복습하는 느낌으로 특강을 준비하�
 > 마음을 다잡고 ZOOM에 입장했다.   
 > 예상보다 훨씬 많은 동료분들이 참석해 주셨고, 그런 모습에 놀라움을 금치 못했다.   
 > 그래도 차분함을 유지하며 차근차근 특강을 진행시켰고,   
-> 교안을 최대한 활용하여 보여주고자 했던 내용을 순차적으로 전달했다.
+> 교안을 최대한 활용하여 보여주고자 했던 내용을 차근차근 전달하려고 했다.
 
 <img class='img' src='https://github.com/D-Sup/D-Sup.github.io/assets/96939334/8e7713d6-510d-4190-a5e0-4f579d6f00aa' alt=''>
 
@@ -149,7 +156,7 @@ API 비동기 통신과 React를 복습하는 느낌으로 특강을 준비하�
 > 에러가 발생하는 순간마다 머릿속이 하얘져서 어지럽기도 했지만,  
 > 응원해주는 동료들 덕분에 바로 정신을 차리고   
 > 에러를 하나씩 해결하면서 원활한 진행을 할 수 있었다.  
-> 그러나 결국 분량 조절 실패로 2시간 특강으로 끝마치게 되었다..
+> 그러나 결국 분량 조절 실패로 2시간동안 특강을 진행했다..
 
 <br>
 <br>
@@ -161,7 +168,7 @@ API 비동기 통신과 React를 복습하는 느낌으로 특강을 준비하�
 > 특강을 더 철저하게 준비하지 못한 점이 개인적인 아쉬움으로 다가왔다.  
 > 그러나 밤새 코드를 처음부터 끝까지 다시 타이핑하는 것을 무한반복하고,  
 > 중간중간 교안도 수정하며 정신없는 상황 속에서도  
-> 주어진 기간동안 내 개인공부를 이어가며 정말 열심히 준비했다는 것에 자부심을 느낀다. 
+> 내 개인공부를 이어가며 정말 열심히 준비했다는 것에 자부심을 느낄 수 있었다. 😌
 
 <img class='img' src='https://github.com/D-Sup/D-Sup.github.io/assets/96939334/9a492272-b667-465f-8b34-9fbde77d0a0d' alt=''>
 
@@ -174,7 +181,7 @@ API 비동기 통신과 React를 복습하는 느낌으로 특강을 준비하�
 <br>
 <br>
 
-# 수상
+# 수상 🎉
 ---
 
 <img class='img' src='https://github.com/D-Sup/D-Sup.github.io/assets/96939334/caf615b5-ef98-4d4e-aae9-1d4a62f8f490' alt=''>
