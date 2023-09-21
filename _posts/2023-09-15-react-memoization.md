@@ -2,7 +2,7 @@
 title: 'React 에서의 Memoization'
 excerpt_separator: '<!--more-->'
 categories:
-  - CodeLion
+  - React
 tags:
   -
 header:
