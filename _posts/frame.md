@@ -17,6 +17,7 @@ toc_label: 'CONTENTS'
 https://ye-yo.github.io/thumbnail-maker/ -->
 <!--  source ~/.bash_profile   -->
 <!-- bundle exec jekyll serve -->
+<!-- bundle exec jekyll serve -->
 
 # 📚 What is TIL?
 
@@ -33,7 +34,6 @@ https://ye-yo.github.io/thumbnail-maker/ -->
 
 <br>
 <br>
-
 
 # ✨ Today is ...
 
