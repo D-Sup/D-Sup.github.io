@@ -14,16 +14,16 @@ html {
   font-size: $type-size-A;
 
   @include breakpoint($medium) {
-    font-size: $type-size-5
+    font-size: $type-size-5;
   }
 
   @include breakpoint($large) {
-    font-size: $type-size-5
+    font-size: $type-size-5;
   }
 
   @include breakpoint($x-large) {
     // font-size: 16px;
-    font-size: $type-size-5
+    font-size: $type-size-5;
   }
 
   -webkit-text-size-adjust: 100%;
@@ -173,24 +173,33 @@ strong {
   font-size: 1.15em;
 }
 
-.img {
-  width: auto;
+.img,
+.img-full {
   max-height: 500px;
-  object-fit: scale-down;
   transition: box-shadow 0.3s;
   border-radius: 7px;
   background-size: contain;
 }
 
-.img:hover {
+.img:hover,
+.img-full:hover {
   box-shadow: 5px 5px 10px 0px rgba($text-color, 0.7);
   // box-shadow: 0 14px 28px rgba($text-color, 0.25), 0 10px 10px rgba($text-color, 0.22);
+}
+
+.img {
+  width: auto;
+  object-fit: scale-down;
+}
+
+.img-full {
+  width: 100%;
+  object-fit: cover;
 }
 
 .smallText {
   font-size: 0.8em;
 }
-
 
 details {
   border: 2px solid $primary-color;
