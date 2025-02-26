@@ -212,8 +212,7 @@ Normalize + New Default Style 형태가 좋을 수도 있지만
 <br>
 ### SCSS
   
-  
-<img class='img-full' src='https://github.com/user-attachments/assets/9cf5192f-ff90-4bcd-8c75-b7704881d009' alt=''>
+<img class='img-full' src='https://github.com/user-attachments/assets/0cea8b63-8a45-4f09-b091-3e2ce73e734c' alt=''>
   
 > 가장 기본적인 CSS 라이브러리인 SCSS는  
 CSS의 문법을 확장하여 변수, 중첩, Mixin 등 강력한 기능을 제공한다.  
@@ -308,8 +307,7 @@ return (
 <br>
 ### Tailwind CSS
 
-
-<img class='img-full' src='https://github.com/user-attachments/assets/0cea8b63-8a45-4f09-b091-3e2ce73e734c' alt=''>
+<img class='img-full' src='https://github.com/user-attachments/assets/9cf5192f-ff90-4bcd-8c75-b7704881d009' alt=''>
 
 > Tailwind CSS는 유틸리티 클래스 기반으로,
 미리 정의된 클래스를 조합하여 스타일을 적용할 수 있는 CSS 프레임워크이다.
