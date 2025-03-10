@@ -2,7 +2,7 @@
 title: '설정관련'
 excerpt_separator: '<!--more-->'
 categories:
-  - frontend
+  - Frontend
 tags:
   -
 header:
